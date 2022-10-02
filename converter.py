@@ -9,9 +9,6 @@ class YoutubeConverter:
     
     def __init__(self, link, pasta):
 
-        print("\n\nURL: "+link)
-        print(pasta+"\n\n")
-
         try:
             yt = YouTube(link) 
 
